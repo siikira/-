@@ -7,6 +7,7 @@ body {
     font-family: "NeutralFace";
     font-family: "Gogol";
     background-image: url("../image/background.png");
+    margin: 0px;
 }
 
 @font-face {
@@ -64,8 +65,8 @@ header {
     font-size: 30px;
     color: #E5E3E3;
     margin: 0 auto;
-    width: 1440px;
-    padding-top:30px;
+    width: 1200px;
+    padding-top: 30px;
 }
 
 a {
@@ -83,11 +84,15 @@ a {
     display: flex;
     align-items: center;
     margin: 200px;
+    margin-left: 350px;
+    margin-right: 350px;
 }
 
 .about {
     display: inline-block;
     justify-content: center;
+    margin-left: 200px;
+    margin-right: 200px;
 }
 
 p {
@@ -95,6 +100,8 @@ p {
     text-align: left;
     font-size: 30px;
     color: white;
+    margin-left: 200px;
+    margin-right: 200px;
 }
 
 .text2 {
@@ -123,5 +130,70 @@ p {
 .gif {
     display: flex;
     justify-content: space-between;
-    margin: 30px 30px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 230px;
+}
+
+.proects {
+    display: inline-block;
+    justify-content: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 50px;
+}
+
+.web-design {
+    font-family: "NeutralFace";
+    text-align: left;
+    font-size: 30px;
+    color: white;
+    margin-left: 900px;
+    margin-right: 200px;
+    color: #ADADAD;
+}
+
+.gif-karina {
+    background-image: url("../image/gif2.gif");
+    display: block;
+    margin: 0px auto 0px auto;
+    height: 629px;
+    width: 1380px;
+    border-radius: 30px;
+    margin-bottom: 40px;
+}
+
+.text3 {
+    font-family: "NeutralFace";
+    text-align: left;
+    font-size: 30px;
+    color: white;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 227px;
+}
+
+.4_block {
+    
+}
+
+.text4 {
+    font-family: "NeutralFace";
+    text-align: left;
+    font-size: 30px;
+    color: white;
+    margin-right: 40px;
+    margin-bottom: 227px;
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+}
+
+.photo_karina {
+    background-image: url("../image/photo1.png");
+    width: 679px;
+    height: 629px;
+    display: block;
+    float: right;
+    margin: 0 0 5px 5px;
 }
